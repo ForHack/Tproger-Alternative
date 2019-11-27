@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!---------------------BASIC PAGE NEEDS!---------------------------->
+	<meta charset="UTF-8">
+	<meta name="viepwort" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Web-Application</title>
+
+	<!---------------------STYLES/ FONTS!---------------------------->
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<header class="header">
+	<div class="container">
+		<div class="row">
+			 <div class="header__logo">
+			 	<img src="img/GetRight.png" alt="">
+			 	<a href="">Tproger</a>
+			 </div>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				    <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Лента
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Сначала новое</a>
+				          <a class="dropdown-item" href="#">Набирает популярность
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Лучшее за неделю</a>
+				          <a class="dropdown-item" href="#">Лучшее за месяц</a>
+				          <a class="dropdown-item" href="#">Лучшее за всё время</a>
+				        </div>
+				      </li>	
+				     <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Рубрики
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Новости новое</a>
+				          <a class="dropdown-item" href="#">Планы обучения
+				          <a class="dropdown-item" href="#">Задачки</a>
+				          <a class="dropdown-item" href="#">Тесты и викторины</a>
+				          <a class="dropdown-item" href="#">Книги</a>
+				          <a class="dropdown-item" href="#">Видео</a>
+				          <a class="dropdown-item" href="#">Коротко о главном</a>
+				          <a class="dropdown-item" href="#">Советы экспертов</a>
+				          <a class="dropdown-item" href="#">Статьи</a>
+				          <a class="dropdown-item" href="#">Переводы</a>
+				          <a class="dropdown-item" href="#">Подборки</a>
+				          <a class="dropdown-item" href="#">Юмор</a>
+				          <a class="dropdown-item" href="#">Интервью</a>
+				        </div>
+				      </li>	
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Темы
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Для начинающих</a>
+				          <a class="dropdown-item" href="#">Алгоритмы</a>
+				          <a class="dropdown-item" href="#">Паттерны проектирования</a>
+				          <a class="dropdown-item" href="#">Методологии разработки</a>
+				          <a class="dropdown-item" href="#">Веб-разработка</a>
+				          <a class="dropdown-item" href="#">Разработка игр</a>
+				          <a class="dropdown-item" href="#">Мобильная разработка</a>
+				          <a class="dropdown-item" href="#">Машинное обучение</a>
+				          <a class="dropdown-item" href="#">Искусственный интеллект</a>
+				          <a class="dropdown-item" href="#">Data Science</a>
+				          <a class="dropdown-item" href="#">Дизайн интерфейсов и UX</a>
+				          <a class="dropdown-item" href="#">Системное администрирование</a>
+				          <a class="dropdown-item" href="#">Все темы</a>
+				        </div>
+				      </li>
+				   	   <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Языки
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Python</a>
+				          <a class="dropdown-item" href="#">JavaScript</a>
+				          <a class="dropdown-item" href="#">Go</a>
+				          <a class="dropdown-item" href="#">Java</a>
+				          <a class="dropdown-item" href="#">C++</a>
+				          <a class="dropdown-item" href="#">C#</a>
+				          <a class="dropdown-item" href="#">PHP</a>
+				          <a class="dropdown-item" href="#">CSS</a>
+				          <a class="dropdown-item" href="#">SQL</a>
+				          <a class="dropdown-item" href="#">Все языки</a>
+				        </div>
+				      </li>
+				       <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Бренды
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Microsoft</a>
+				          <a class="dropdown-item" href="#">Facebook</a>
+				          <a class="dropdown-item" href="#">Google</a>
+				          <a class="dropdown-item" href="#">Яндекс</a>
+				        </div>
+				      </li>
+				     <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Работы 
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Вакансии</a>
+				          <a class="dropdown-item" href="#">Добавить вакансию
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Советы</a>
+				          <a class="dropdown-item" href="#">Подготовка к собеседованию</a>
+				        </div>
+				      </li>	
+				      <li class="nav-item">
+				        	<a class="nav-link" href="#">События и курсы</a>
+				     </li>	
+				    </ul>
+			</nav>
+			<div class="header__search">
+				<div class='header__search-inner'>
+					<a href=""  class='search'><img src="img/icon-search.svg" alt=""></a>
+					<a href="" class='user'>
+						<img src="img/icon-user.svg" alt="">
+						<span>Войти</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12 padding-n">
+				<div class="news-wrapper">
+					<div class="news-inner">
+						<div class="news-group">
+							<p class='news-date'>16 августа, сегодня</p>
+							<a href="">В «Одноклассниках» теперь можно добавлять человека в друзья по фотографии</a>
+						</div>
+						<div class="news-group">
+							<p class='news-date'>15 августа, вчера</p>
+							<a href="">Microsoft отметила в политике конфиденциальности ревью аудиосообщений</a>
+						</div>
+						<div class="news-group">
+							<a href="">«Ведомости»: Владимир Путин против передачи частот для 5G от Минобороны операторам</a>
+						</div>
+						<div class="news-more">
+							<a href="">Больше новостей <i class='fa fa-chevron-down'></i></a>
+						</div>
+					</div>
+					<div class="post-inner news-title">
+							<h2 class='title'>Как Facebook масштабирует архитектуру чата с нагрузкой в миллиарды сообщений в день</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex">
+								<img src="img/facebook.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Чат Facebook — полноценная система, имеющая доступ к функциональности основного сайта. Рассказываем, как его смогли масштабировать, учитывая высокие нагрузки. </p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>В чём разница между шифрованием, кодированием и хешированием?</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #FFFD9F'>
+								<img src="img/private.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Шифрование, хеширование и кодирование очень похожи, но на самом деле каждое из них используется с определённой целью. Разбираемся, в чём разница.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="post-inner flex info">
+						<div class="news-container">
+							<div class="news-title">
+								<h4>Вакансии для айтишников</h4>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/agima.png" alt="">
+									<div class='job-position'>
+										<img src="img/light.svg" alt="">
+										<span class='position'>IOS/Android Team Leader</span>
+										<span>AGIMA, Москва, от 180 000 ₽</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/mandarin.png" alt="">
+									<div class='job-position'>
+										<span class='position'>Системный Инженер</span>
+										<span>Mandarin Solutions, Москва от 150 000₽</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/agima.png" alt="">
+									<div class='job-position'>
+										<span class='position'>IOS Разработчик</span>
+										<span>AGIMA, Москва, от 150 000 ₽</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container'>
+								<div class="job flex">
+									<img src="img/react.png" alt="">
+									<div class='job-position'>
+										<span class='position'>JavaScript Разработчик(Senior, Vue)</span>
+										<span>Nativeroll, Санкт-Петербург, от 170 000 до 230 000 ₽</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/ivedion.png" alt="">
+									<div class='job-position'>
+										<span class='position'>Python Разработчик</span>
+										<span>Ivideon, Москва, от 150 000 до 230 000 ₽</span>
+									</div>
+								</div>
+							</div>
+							<div class='vacancies flex'>
+								<div class="all">
+									<a href="">Все вакансии</a>
+									<i class="fa fa-chevron-right" aria-hidden="true"></i>
+								</div>
+								<div class="post-vacancy">
+									<a href="#" class='btn-submit'>Разместить вакансию</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="post-inner news-title">
+							<h2 class='title'>Как разработать хорошее веб-приложение и избежать ошибок — отвечают эксперты</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #CBFFFC'>
+								<img src="img/private.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Как писать веб-приложения, которые будут эффективны? Как выбрать подходящий фреймворк, ORM и т. д.? Что ещё нужно веб-приложению? Узнаем у экспертов.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Что нового в C++ 20 и какие изменения ожидают язык в будущем?</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #93EBFF'>
+								<img src="img/cpp.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Статья кратко расскажет об основных нововведениях в C++ 20, а также о том, какие изменения в языке можно ожидать в будущем.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner flex info">
+						<div class="news-container">
+							<div class="news-title">
+								<h2>PHP 25 лет: почему он именно такой и что с ним будет — рассказывает создатель языка</h2>
+							</div>
+							<div class="news-content">
+								<p>Подготовили для вас видео и краткий конспект, из которого можно узнать ключевые моменты речи и на который удобно опираться во время просмотра.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Как научиться писать тестируемый и сопровождаемый код — отвечают эксперты</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #D9FFBA'>
+								<img src="img/development.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Все слышали про важность тестируемого и сопровождаемого кода, но не все понимают, о чём идёт речь. Спрашиваем у экспертов, как писать такой код.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Откройте окна, запаситесь матрасами и берегите жюри — 10 советов по проведению хакатона</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex">
+								<img src="img/prize.png" alt=""  class='full'>
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Организация хакатона — дело непростое и хлопотное. Публикуем 10 советов, которые уберегут от граблей и помогут провести запоминающийся хакатон.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner flex info">
+						<div class="news-container">
+							<div class="news-title">
+								<h4>События и курсы</h4>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/huawei.png" alt="">
+									<div class='job-position'>
+										<span class='position'>Huawei Honor Cup 2019</span>
+										<span>15 мая – 1 ноября, Онлайн,  беcплатно</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/yandex.png" alt="">
+									<div class='job-position'>
+										<span class='position'>Yandex Retro Games Battle 2019</span>
+										<span>1 июля – 3 декабря, Онлайн,  беcплатно</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/gdw.png" alt="">
+									<div class='job-position'>
+										<span class='position'>Конференция GameDev Weekend</span>
+										<span>17–18 августа, Новосибирск, 500–4500&nbsp;</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container'>
+								<div class="job flex">
+									<img src="img/aronicle.png" alt="">
+									<div class='job-position'>
+										<span class='position'>Митап Telegram Evening</span>
+										<span>21 августа, Москва, 1200–4900&nbsp;₽</span>
+									</div>
+								</div>
+							</div>
+							<div class='jobs-container '>
+								<div class="job flex">
+									<img src="img/mail.png" alt="">
+									<div class='job-position'>
+										<span class='position'>@DevOps Meetup #2</span>
+										<span>22 августа, Москва,  беcплатно</span>
+									</div>
+								</div>
+							</div>
+							<div class='vacancies flex'>
+								<div class="all">
+									<a href="">Все события и курсы</a>
+									<i class="fa fa-chevron-right" aria-hidden="true"></i>
+								</div>
+								<div class="post-vacancy">
+									<a href="#" class='btn-submit'>Добавить событие или курс</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Задачи по Python для начинающих от Tproger и GeekBrains</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #BFD7EA'>
+								<img src="img/python.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Для обучения программированию на питоне нужны тренировки. Совместно с GeekBrains собрали для вас несколько простых задач на Python 3 c решениями.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Настраиваем инфраструктуру как код: чек-лист для DevOps-инженеров на примере AWS CloudFormation</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #81D4EF'>
+								<img src="img/datacenter.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Для обучения программированию на питоне нужны тренировки. Совместно с GeekBrains собрали для вас несколько простых задач на Python 3 c решениями.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Что нужно знать, чтобы написать операционную систему</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #C4FBFF'>
+								<img src="img/computer.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Создание операционной системы — сложная и комплексная задача. Как подготовиться к ней и на что опираться во время работы? Рассказываем в статье.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+					<div class="post-inner news-title">
+							<h2 class='title'>Подборка классических ОС, которые можно запустить в браузере</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #017F7E'>
+								<img src="img/setup.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Macintosh Classic, AmigaOS и Windows95 — подборка операционных систем, эмуляторы которых можно запустить прямо в браузере. Ностальгируем!</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+					<div class="post-inner news-title">
+							<h2 class='title'>Начни свой путь в IT: 13 советов от бывалых</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #017F7E'>
+								<img src="img/dinosaur.png" alt="" class='full'>
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Как стать хорошим программистом? Что нужно знать? Какие лайфхаки можно использовать? Опытные программисты отвечают на эти и другие важные вопросы.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Устал быть программистом. Куда податься? Отвечают эксперты</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #F0FFD3'>
+								<img src="img/user_search.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Обычно люди спрашивают, как «войти в IT», но как уйти из IT тоже непонятно. В каких сферах могут пригодиться навыки программиста? Спросили у экспертов.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner flex info">
+						<div class="news-container article" style='background: url(img/cover1.png)no-repeat'>
+							<div class="news-title">
+								<h2>Чем заменить продукты Google: подборка альтернатив, которые не будут за вами следить</h2>
+							</div>
+							<div class="news-content">
+								<p>Google зарабатывает на ваших данных. Если вы давно хотели уйти от влияния компании, но не знали, на что заменить её продукты, то вы попали куда надо.</p>
+							</div>
+							<div class="overlay"></div>
+						</div>
+					</div>
+					<div class="post-inner flex info">
+						<div class="news-container article" style='background: url(img/hack.png)no-repeat'>
+							<div class="news-title">
+								<h2>Как работают тру-хакеры: подборка эпичных сцен из кино и сериалов</h2>
+							</div>
+							<div class="news-content">
+								<p>Подборка, которая убедит вас, что хакеры — почти супергерои. Во всяком случае, так наверняка думали создатели этих сцен.</p>
+							</div>
+							<div class="overlay"></div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Ретроспективный анализ IT-проекта: 4 шага подальше от граблей</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #E0E1FF'>
+								<img src="img/sign.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Ретроспектива позволяет оглянуться и понять, чему научились, на чём споткнулись и что надо улучшить. Рассмотрим, как её провести.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Как заработать на своём ПО — отвечают эксперты</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #a7e8f2'>
+								<img src="img/earn_online.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Существуют разные способы заработать на ПО, каждый со своими плюсами и минусами. Вместе с экспертами разбираемся, какой способ когда лучше использовать.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Интересные проекты: hostyoself — хостим на всём, что попадётся под руку</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #FFF99F'>
+								<img src="img/responsive.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Проект, который позволит захостить сайт из браузера просто скопировав и вставив папку с сайтом. Как это устроено и где можно попробовать, читайте в статье.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Шпаргалка: как пошагово решить задачу на собеседовании + советы для подготовки</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #ecf0f1'>
+								<img src="img/person.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Чек-лист стажёра Google, который поможет справиться с задачами на техническом интервью, и немного полезных материалов для подготовки.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Как программисту улучшить свою память — отвечают эксперты</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #ECDBFF'>
+								<img src="img/brain.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Сфера IT развивается и генерирует всё больше информации, которую надо знать и понимать. Как всё запомнить? И нужно ли? Спосили у экспертов.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Идеи DIY-проектов для одноплатников про пиво</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #BCFFFE'>
+								<img src="img/beer.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>В статье собрали интересные проекты с инструкциями и схемами гаджетов для любителей пива. Для создания в основном используются Arduino и Raspberry Pi.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Математика для ИИ: линейная алгебра</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #9BE1FF'>
+								<img src="img/ruler_pencil.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Насколько глубоко нужно знать математику, чтобы заниматься ИИ? Разбираемся в базовых терминах, которые могут пригодиться, чтобы войти в эту сферу.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner flex info">
+						<div class="news-container article" style='background: url(img/progers.png)no-repeat'>
+							<div class="news-title">
+								<h2>Как бесплатно получить ПО JetBrains и другой крутой софт: гайд для студентов и школьников</h2>
+							</div>
+							<div class="news-content">
+								<p>От цен на профессиональное ПО для разработки у простого студента может закружиться голова. Рассказываем, как получить его бесплатно.</p>
+							</div>
+							<div class="overlay"></div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Распространённые заблуждения про безопасность IPv6</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #FFC8A8'>
+								<img src="img/shield.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Статья расскажет про основные заблуждения в организации безопасности IPv6, различия между IPv6 и IPv4 и про нюансы, на которые стоит обратить внимание.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Как оптимизировать работу в Jupyter Notebook</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #FFC170'>
+								<img src="img/jupyter.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Оптимизируем работу в Jupyter Notebook с помощью основных команд и расширений и добавляем немного магии, чтобы всё стало ещё быстрее и проще.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Мнение: использовать Let’s Encrypt — плохая идея</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #D7FFFF'>
+								<img src="img/encryptyon.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Let’s Encrypt помогает быстро и бесплатно получить SSL-сертификат. Разбираемся, почему он при этом может угрожать безопасности всей системы сертификации.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>МКак работает процессор?</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #FFF2B5'>
+								<img src="img/cpu.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Кратко и доступно о том, как работает центральный процессор, регистры, память, инструкции и кэш, а также что такое УУ и АЛУ и зачем они нужны.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Исследование утечек памяти в Go с помощью pprof</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #D4FFCC'>
+								<img src="img/damp.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>В Go непросто получить полный дамп памяти, из-за чего сложно найти утечки. Рассмотрим, как это сделать с помощью pprof на примере реального проекта.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-inner news-title">
+							<h2 class='title'>Что такое TLS-рукопожатие и как оно устроено</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #cfe1fc'>
+								<img src="img/lock.png" alt="">
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>TLS — это один из наиболее часто встречающихся инструментов безопасности, используемых в интернете. Один из ключевых аспектов протокола — рукопожатие. О нём и поговорим в этой статье.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Проверка навыков и классные призы: пройдите опрос разработчиков Developer Economics Survey Q2 2019</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #cfe1fc'>
+								<img src="img/forward.png" alt="" class='full'>
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Задают вопросы, связанные с разработкой, например, «Какие IDE вы используете?», «Пользуетесь ли вы Stack Overflow?» и тому подобное. За прохождение можно выиграть классные штуки вроде Microsoft Surface Pro 6, Oculus Rift S или 3D-принтера.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<nav aria-label="Page navigation example">
+				  <ul class="pagination justify-content-center">
+				    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+				    <li class="page-item"><a class="page-link" href="#">2</a></li>
+				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    <li class="page-item"><a class="page-link" href="#">›</a></li>
+				    <li class="page-item"><a class="page-link" href="#">»</a></li>
+				  </ul>
+				</nav>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="blog-wrapper">
+					<div class='above-inner'>
+						<span class="above-blog">
+							<a href="" class=''>
+								<i class="fa fa-delicious" aria-hidden="true"></i>
+								<span>Го в «Дзен», мы создали )))0)</span>
+							</a>
+						</span>
+					</div>
+					<div class="above-quote">
+						<div class='quote-left'>
+							<i class="fa fa-quote-left" aria-hidden="true"></i>
+						</div>
+						<div class="quote-text">
+							<span>Гонял прогу по тестам. Пытался найти хоть один работающий.</span>
+						</div>
+						<div class='quote-right'>
+							<i class="fa fa-quote-right" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="above-subscribe">
+						<label for="email">
+							<span>Рассылка «Аргументы и функции»</span>
+							<p>Только самые важные IT-новости</p>
+						</label>
+						<div class="form">
+							<input type="text" name='email' id='email' placeholder="Введите свой e-mail">
+						</div>
+						<div class='subscribe'>
+							<a href="">Подписатся</a>
+						</div>
+					</div>
+					<div class="above-experience">
+						<div class="share">
+							<p>Поделитесь своим опытом и опубликуйте материал на Tproger. Для этого не обязательно становиться постоянным автором.</p>
+						</div>				
+						<div class='share__link'>
+							<a href="">Хочу попробовать</a>
+						</div>
+					</div>
+					<div class="above-experience google">
+						<div class="share">
+							<img src="img/google_cap.png" alt="">
+							<p>Анонимный поиск работы для программистов</p>
+						</div>				
+						<div class='share__link'>
+							<a href="">Найти интересные предложения без проблем на текущем месте работы</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+<footer class='footer'>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="footer__link">
+					<a href="">О проекте</a>
+					<a href="">Реклама</a>
+					<a href="">Мобильная версия</a>
+				</div>
+				<div class="footer__rights">
+					<a href="">Пользовательское соглашение</a>
+					<br>
+					<a href="">Политика конфиденциальности</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="footer__icons">
+					<a href="">
+						<img src="img/vk.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/fb.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/twitter.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/odnoklassniki.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/telegram.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/profile-user.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/rss.png" alt="">
+					</a>
+				</div>
+				<div class="footer__context">
+					<a href="">«Аргументы и функции» — рассылка новостей</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="footer__notification">
+					<i class='fa fa-bell-o'></i>
+					<a href=""> Включить уведомления</a>
+				</div>
+				<div class="footer__error">
+					<span>Нашли опечатку? Выделите фрагмент и отправьте нажатием Ctrl+Enter.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/282ab10f35.js"></script>
+<script src='js/main.js'></script>
+</body>
+</html>

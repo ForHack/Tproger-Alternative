@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!---------------------BASIC PAGE NEEDS!---------------------------->
+	<meta charset="UTF-8">
+	<meta name="viepwort" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Category	</title>
+
+	<!---------------------STYLES/ FONTS!---------------------------->
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<header class="header">
+	<div class="container">
+		<div class="row">
+			 <div class="header__logo">
+			 	<img src="img/logo.svg" alt="">
+			 	<a href="">Tproger</a>
+			 </div>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				    <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Лента
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Сначала новое</a>
+				          <a class="dropdown-item" href="#">Набирает популярность
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Лучшее за неделю</a>
+				          <a class="dropdown-item" href="#">Лучшее за месяц</a>
+				          <a class="dropdown-item" href="#">Лучшее за всё время</a>
+				        </div>
+				      </li>	
+				     <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Рубрики
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Новости новое</a>
+				          <a class="dropdown-item" href="#">Планы обучения
+				          <a class="dropdown-item" href="#">Задачки</a>
+				          <a class="dropdown-item" href="#">Тесты и викторины</a>
+				          <a class="dropdown-item" href="#">Книги</a>
+				          <a class="dropdown-item" href="#">Видео</a>
+				          <a class="dropdown-item" href="#">Коротко о главном</a>
+				          <a class="dropdown-item" href="#">Советы экспертов</a>
+				          <a class="dropdown-item" href="#">Статьи</a>
+				          <a class="dropdown-item" href="#">Переводы</a>
+				          <a class="dropdown-item" href="#">Подборки</a>
+				          <a class="dropdown-item" href="#">Юмор</a>
+				          <a class="dropdown-item" href="#">Интервью</a>
+				        </div>
+				      </li>	
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Темы
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Для начинающих</a>
+				          <a class="dropdown-item" href="#">Алгоритмы</a>
+				          <a class="dropdown-item" href="#">Паттерны проектирования</a>
+				          <a class="dropdown-item" href="#">Методологии разработки</a>
+				          <a class="dropdown-item" href="#">Веб-разработка</a>
+				          <a class="dropdown-item" href="#">Разработка игр</a>
+				          <a class="dropdown-item" href="#">Мобильная разработка</a>
+				          <a class="dropdown-item" href="#">Машинное обучение</a>
+				          <a class="dropdown-item" href="#">Искусственный интеллект</a>
+				          <a class="dropdown-item" href="#">Data Science</a>
+				          <a class="dropdown-item" href="#">Дизайн интерфейсов и UX</a>
+				          <a class="dropdown-item" href="#">Системное администрирование</a>
+				          <a class="dropdown-item" href="#">Все темы</a>
+				        </div>
+				      </li>
+				   	   <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Языки
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Python</a>
+				          <a class="dropdown-item" href="#">JavaScript</a>
+				          <a class="dropdown-item" href="#">Go</a>
+				          <a class="dropdown-item" href="#">Java</a>
+				          <a class="dropdown-item" href="#">C++</a>
+				          <a class="dropdown-item" href="#">C#</a>
+				          <a class="dropdown-item" href="#">PHP</a>
+				          <a class="dropdown-item" href="#">CSS</a>
+				          <a class="dropdown-item" href="#">SQL</a>
+				          <a class="dropdown-item" href="#">Все языки</a>
+				        </div>
+				      </li>
+				       <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Бренды
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Microsoft</a>
+				          <a class="dropdown-item" href="#">Facebook</a>
+				          <a class="dropdown-item" href="#">Google</a>
+				          <a class="dropdown-item" href="#">Яндекс</a>
+				        </div>
+				      </li>
+				     <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Работы 
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Вакансии</a>
+				          <a class="dropdown-item" href="#">Добавить вакансию
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Советы</a>
+				          <a class="dropdown-item" href="#">Подготовка к собеседованию</a>
+				        </div>
+				      </li>	
+				      <li class="nav-item">
+				        	<a class="nav-link" href="#">События и курсы</a>
+				     </li>	
+				    </ul>
+			</nav>
+			<div class="header__search">
+				<div class='header__search-inner'>
+					<a href=""  class='search'><img src="img/icon-search.svg" alt=""></a>
+					<a href="" class='user'>
+						<img src="img/icon-user.svg" alt="">
+						<span>Войти</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-12 padding-n">
+				<div class="news-wrapper">
+					<div class="post-inner flex info">
+						<div class="news-container article" style='background: url(img/project.png)no-repeat'>
+							<div class="news-title">
+								<h2>Как с помощью принципа единственной ответственности писать гибкий и модульный код</h2>
+							</div>
+							<div class="news-content">
+								<p>Если вы занимались разработкой ПО, вам наверняка знакома аббревиатура SOLID. Это свод принципов, призванный помочь разработчикам писать чистый, хорошо структурированный и легко читаемый код. Программисты представляют себе по-разному «правильный» подход…</p>
+							</div>
+							<div class="overlay"></div>
+						</div>
+					</div>
+					<div class="post-inner news-title">
+							<h2 class='title'>Шаблоны проектирования простым языком. Часть третья. Поведенческие шаблоны</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #9DD1FF'>
+								<img src="img/binocular.png" alt="" style='max-width: 260px'>
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Третья статья из цикла, посвящённого шаблонам, или паттернам, проектирования. На понятных примерах объясняем суть поведенческих шаблонов.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Шаблоны проектирования простым языком. Часть вторая. Структурные шаблоны</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #0069A3'>
+								<img src="img/bridge.png" alt="" style='max-width: 260px'>
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Вторая статья из цикла, посвящённого шаблонам, или паттернам, проектирования. На понятных примерах объясняем суть структурных шаблонов.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="post-inner news-title">
+							<h2 class='title'>Шаблоны проектирования простым языком. Часть первая. Порождающие шаблоны</h2>
+							<p class='time'>
+								<span><i class='fa fa-clock-o'></i>обновлено <time>21.10.2019</time></span>
+								<span><i class='fa fa-folder-o'></i>Asterisk</span>
+								<span><i class='fa fa-wechat'></i>13</span>
+								<span><i class='fa fa-eye'></i>5,494</span>
+							</p>			
+						<div class=" flex info">
+							<div class="news-img flex" style='background-color: #0069A3'>
+								<img src="img/building.png" alt="" style='max-width: 260px'>
+							</div>
+							<div class="news-container">
+								<div class="news-content">
+									<p>Первая статья из цикла, посвящённого шаблонам, или паттернам, проектирования. На понятных примерах объясняем суть порождающих шаблонов.</p>
+									<a href="#" class="btn-submit">Далее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+					<div class="post-inner flex info">
+						<div class="news-container padding-n">
+								<div class='video__poster'>
+								<a href="">
+									<img src="img/pattern.png" alt="">
+								</a>
+								<a href="" class='youtube_btn'>
+									<div class="triangle"></div>
+								</a>
+							</div>
+							<div class="post__info">
+								<div class="news-title">
+									<h2>Курс «Шаблоны проектирования»</h2>
+								</div>
+								<div class="news-content">
+									<p>Созданный в 2015 году курс по шаблонам проектирования, охватывающий понятие шаблона проектирования и более десяти самых распространенных шаблонов.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="post-inner flex info">
+						<div class="news-container article" style='background: url(img/djeday.png)no-repeat; background-size: cover'>
+							<div class="news-title">
+								<h2>Джедайские приемы на JavaScript: магические свойства транслятора событий</h2>
+							</div>
+							<div class="news-content">
+								<p>О чем мы? Event Emitter можно перевести как “транслятор” или “эмиттер” событий. Звучит как название штуки, умеющей генерировать событие, которое может “услышать” кто угодно.</p>
+							</div>
+							<div class="overlay"></div>
+						</div>
+					</div>
+					<div class="post-inner flex info">
+						<div class="news-container article" style='background: url(img/Singleton.png)no-repeat; background-size: cover'>
+							<div class="news-title">
+								<h2>Подводные камни Singleton: почему самый известный шаблон проектирования нужно использовать с осторожностью</h2>
+							</div>
+							<div class="news-content">
+								<p>Паттерн “Одиночка” — пожалуй, самый известный паттерн проектирования. Тем не менее, он не лишен недостатков, поэтому некоторые программисты (например, Егор Бугаенко) считают его антипаттерном. Разбираемся в том, какие же подводные…</p>
+							</div>
+							<div class="overlay"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="blog-wrapper">
+					<div class='above-inner'>
+						<span class="above-blog">
+							<a href="" class=''>
+								<i class="fa fa-delicious" aria-hidden="true"></i>
+								<span>Го в «Дзен», мы создали )))0)</span>
+							</a>
+						</span>
+					</div>
+					<div class="above-quote">
+						<div class='quote-left'>
+							<i class="fa fa-quote-left" aria-hidden="true"></i>
+						</div>
+						<div class="quote-text">
+							<span>Гонял прогу по тестам. Пытался найти хоть один работающий.</span>
+						</div>
+						<div class='quote-right'>
+							<i class="fa fa-quote-right" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="above-subscribe">
+						<label for="email">
+							<span>Рассылка «Аргументы и функции»</span>
+							<p>Только самые важные IT-новости</p>
+						</label>
+						<div class="form">
+							<input type="text" name='email' id='email' placeholder="Введите свой e-mail">
+						</div>
+						<div class='subscribe'>
+							<a href="">Подписатся</a>
+						</div>
+					</div>
+					<div class="above-experience">
+						<div class="share">
+							<p>Поделитесь своим опытом и опубликуйте материал на Tproger. Для этого не обязательно становиться постоянным автором.</p>
+						</div>				
+						<div class='share__link'>
+							<a href="">Хочу попробовать</a>
+						</div>
+					</div>
+					<div class="above-experience google">
+						<div class="share">
+							<img src="img/google_cap.png" alt="">
+							<p>Анонимный поиск работы для программистов</p>
+						</div>				
+						<div class='share__link'>
+							<a href="">Найти интересные предложения без проблем на текущем месте работы</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+<footer class='footer'>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="footer__link">
+					<a href="">О проекте</a>
+					<a href="">Реклама</a>
+					<a href="">Мобильная версия</a>
+				</div>
+				<div class="footer__rights">
+					<a href="">Пользовательское соглашение</a>
+					<br>
+					<a href="">Политика конфиденциальности</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="footer__icons">
+					<a href="">
+						<img src="img/vk.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/fb.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/twitter.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/odnoklassniki.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/telegram.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/profile-user.png" alt="">
+					</a>
+					<a href="">
+						<img src="img/rss.png" alt="">
+					</a>
+				</div>
+				<div class="footer__context">
+					<a href="">«Аргументы и функции» — рассылка новостей</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="footer__notification">
+					<i class='fa fa-bell-o'></i>
+					<a href=""> Включить уведомления</a>
+				</div>
+				<div class="footer__error">
+					<span>Нашли опечатку? Выделите фрагмент и отправьте нажатием Ctrl+Enter.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/282ab10f35.js"></script>
+<script src='js/main.js'></script>
+</body>
+</html>
